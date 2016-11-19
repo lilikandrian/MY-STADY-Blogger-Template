@@ -1253,7 +1253,7 @@ head.appendChild(script);
     					<b:if cond='data:enclosure.mimeType == &quot;image/jpeg&quot;'>
     						<b:loop values='data:post.labels' var='label'>
     							<b:if cond='data:label.name in {&quot;YouTube&quot;,&quot;Hulu&quot;,&quot;Veoh&quot;,&quot;blip.tv&quot;}'>
-    <!--Video Thumbnails-->
+    <!--Video Thumbnail-->
     								<a expr:href='data:post.url + &quot;#more&quot;' expr:title='&quot;Click to watch &quot; + data:post.title'>
     									<img class='thumbnail' expr:src='data:enclosure.url'/>
     								</a>
